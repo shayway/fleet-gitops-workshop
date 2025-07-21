@@ -23,7 +23,7 @@ org_settings:
   server_settings:
     server_url: $FLEET_URL
   org_info:
-    org_name: Shay's Personal Fleet
+    org_name: Shay's Fleet
   secrets:
     - secret: "$FLEET_GLOBAL_ENROLL_SECRET"
   features:
