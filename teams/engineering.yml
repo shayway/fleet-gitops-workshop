@@ -20,7 +20,7 @@ controls:
   macos_settings:
     custom_settings:
       - path: ../lib/macos/configuration-profiles/disable-bluetooth-file-sharing.mobileconfig
-      - path: ../lib/macos/configuration-profiles/set-wallpaper.ps1
+      - path: ../lib/windows/configuration-profiles/set-wallpaper.ps1
   macos_updates:
     deadline: "2025-07-30"
     minimum_version: "15.5.1"
