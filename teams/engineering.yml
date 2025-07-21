@@ -20,7 +20,6 @@ controls:
   macos_settings:
     custom_settings:
       - path: ../lib/macos/configuration-profiles/disable-bluetooth-file-sharing.mobileconfig
-      - path: ../lib/windows/configuration-profiles/set-wallpaper.ps1
   macos_updates:
     deadline: "2025-07-30"
     minimum_version: "15.5.1"
@@ -29,6 +28,7 @@ controls:
     minimum_version: "18.2"
   scripts:
     - path: ../lib/macos/scripts/remove-zoom-artifacts.script.sh
+    - path: ../lib/windows/configuration-profiles/set-wallpaper.ps1
     - path: ../lib/macos/scripts/set-timezone.script.sh
     - path: ../lib/macos/scripts/set-wallpaper.ps1
 team_settings:
