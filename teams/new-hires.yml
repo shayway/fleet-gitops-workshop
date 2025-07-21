@@ -22,11 +22,11 @@ controls:
 team_settings:
   webhook_settings:
     failing_policies_webhook:
-    enable_failing_policies_webhook: true
-    destination_url: https://oktaworkflows.com
-    host_batch_size: 0
-    policy_ids:
-      - 1 
+      enable_failing_policies_webhook: true
+      destination_url: https://oktaworkflows.com
+      host_batch_size: 0
+      policy_ids:
+        - 4
   secrets:
     - secret: "$FLEET_NEW_HIRES_ENROLL_SECRET"
   features:
