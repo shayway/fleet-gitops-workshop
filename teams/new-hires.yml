@@ -37,4 +37,4 @@ team_settings:
 software:
   packages:
   - path: ../lib/macos/software/zoom.yml
-  - path: ../lib/cloudflare-warp.yml
+  - path: ../lib/windows/software/cloudflare-warp.yml
