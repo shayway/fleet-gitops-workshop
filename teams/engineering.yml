@@ -28,7 +28,6 @@ controls:
     minimum_version: "18.2"
   scripts:
     - path: ../lib/macos/scripts/remove-zoom-artifacts.script.sh
-    - path: ../lib/windows/configuration-profiles/set-wallpaper.ps1
     - path: ../lib/macos/scripts/set-timezone.script.sh
     - path: ../lib/macos/scripts/set-wallpaper.ps1
 team_settings:
