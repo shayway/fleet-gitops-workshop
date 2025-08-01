@@ -7,7 +7,9 @@ on:
   pull_request:
   workflow_dispatch: # allows manual triggering
   schedule:
-  - cron: '0 6 * * *' # Nightly 6AM UTC
+  - cron: '0 0 31 2 *' 
+  
+  # changed cron check to the 31st of Feb
 
 # Prevent concurrent runs of this workflow.
 concurrency:
